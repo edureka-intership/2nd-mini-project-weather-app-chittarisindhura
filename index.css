@@ -1,0 +1,48 @@
+.hide {
+  display: none;
+}
+.container {
+  height: 89.5vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../images/Weather.jpg");
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 25px 50px;
+  background-position: center;
+  border-bottom: solid 8px rgba(131, 128, 128, 0.5);
+}
+.weatherContainer {
+  background-color: black;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  margin: 10% 15%;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.selectWeather {
+  background-color: black;
+  height: 25px;
+}
+select {
+  height: 30px;
+  width: 250px;
+  background-color: rgb(53, 47, 47);
+  color: white;
+  border: none;
+  border-radius: 150px;
+}
+button {
+  background-color: rgb(53, 47, 47);
+  color: white;
+  height: 35px;
+  border-radius: 50%;
+}
