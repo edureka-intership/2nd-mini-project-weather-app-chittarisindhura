@@ -5,35 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="weather.js"></script>
     <link rel="stylesheet" href="index.css" />
     <script src="https://kit.fontawesome.com/5e8429a6ac.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Weather</title>
 </head>
 
 <body>
     <div class="container">
         <div class="weatherContainer">
-            <select id="selectWeather">
-                <option selected value="search for weather">search for weather</option>
-                <option value="Australia">Australia</option>
-                <option value="Brazil">Brazil</option>
-                <option value="China">China</option>
-                <option value="France">France</option>
-                <option value="Germany">Germany</option>
-                <option value="India">India</option>
-                <option value="Japan">Japan</option>
-                <option value="Mexico">Mexico</option>
-                <option value="New Zealand">New Zealand</option>
-                <option value="Russia">Russia</option>
-                <option value="Singapore">Singapore</option>
-                <option value="Thailand">Thailand</option>
-                <option value="United Kingdom">United Kingdom</option>
-                <option value="United States of America">United States of America</option>
-                <option value="Venezuela">Venezuela</option>
-            </select>
-
-            <button onClick="searchWeather()">
+            <input type="search" id="searchCity" placeholder="search for weather" required>
+            <button onClick="weatherApi()">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
             <div id="climate">

@@ -28,17 +28,18 @@
   border-radius: 25px;
 }
 
-.selectWeather {
-  background-color: black;
-  height: 25px;
+#searchCity {
+  background-color: rgb(53, 47, 47);
+  height: 30px;
+  width: 250px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 150px;
 }
 select {
   height: 30px;
-  width: 250px;
   background-color: rgb(53, 47, 47);
-  color: white;
-  border: none;
-  border-radius: 150px;
 }
 button {
   background-color: rgb(53, 47, 47);
